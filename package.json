@@ -5,8 +5,13 @@
   "repository": "git@github.com:gustavopradoreis/gostack-desafio-01.git",
   "author": "gustavopradoreis <henrique.gustavoreis@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
     "nodemon": "^1.19.1"
   }
 }

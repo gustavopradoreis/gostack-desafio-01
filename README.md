@@ -6,6 +6,16 @@ Essa aplicação será utilizada para armazenar projetos e suas tarefas.
 
 ## Excecução
 
+### Instalação dos pacotes
+```
+yarn install
+```
+
+### Execução local com hot-reloads para desenvolvimento
+```
+yarn serve
+```
+
 ## Rotas
 
 - `POST /projects`: A rota deve receber `id` e `title` dentro corpo de cadastrar um novo projeto dentro de um array no seguinte formato: `{ id: "1", title: 'Novo projeto', tasks: [] }`; Certifique-se de enviar tanto o ID quanto o título do projeto no formato string com àspas duplas.
